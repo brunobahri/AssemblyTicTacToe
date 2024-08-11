@@ -205,7 +205,7 @@ org 100h
             skip4:   
             
             mov bl, grid[1]
-            cmp bl, grid[4]              
+            cmp bl, grid[4]               
             jne skip5  
             cmp bl, grid[7]  
             jne skip5
